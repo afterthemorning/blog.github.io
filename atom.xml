@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Raul Tang&#39;s Blog</title>
+  
+  <subtitle>世界那么大，天是那么蓝。</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://blog.raultang.com/"/>
+  <updated>2018-01-06T17:13:14.258Z</updated>
+  <id>http://blog.raultang.com/</id>
+  
+  <author>
+    <name>Raul Tang</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Front-End Developer Handbook 2017</title>
+    <link href="http://blog.raultang.com/Front-End-Developer-book/handbook/Front-End-Developer-Handbook-2017/"/>
+    <id>http://blog.raultang.com/Front-End-Developer-book/handbook/Front-End-Developer-Handbook-2017/</id>
+    <published>2017-04-19T22:24:17.160Z</published>
+    <updated>2018-01-06T17:13:14.258Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;简介-amp-前言&quot;&gt;&lt;a href=&quot;#简介-amp-前言&quot; class=&quot;headerlink&quot; title=&quot;简介&amp;amp;前言&quot;&gt;&lt;/a&gt;简介&amp;amp;前言&lt;/h4&gt;&lt;p&gt;一直都在不断的寻找，可以系统学习前端知识的资料，最近找到一个写的比较专业的 - Front-End Developer Handbook 2017&lt;/p&gt;&lt;p&gt;目前才看了前几章，总体来说还是很专业的，有很多的知识点，有以前不知道的，比较新的技术，框架等。&lt;/p&gt;&lt;p&gt;正如他们官方的介绍:&lt;/p&gt;&lt;p&gt;This is a guide that anyone could use to learn about the practice of front-end development. It broadly outlines and discusses the practice of front-end engineering: how to learn it and what tools are used when practicing it in 2017.&lt;/p&gt;&lt;p&gt;You’ve got the basics down and don’t want to learn from teachers who just spoon feed you their google results – you want to learn from the masters! Here, you get experts as teachers。&lt;/p&gt;&lt;p&gt;想要成为大师级的前端工程师，可以从这里开始:&lt;br&gt;从最基础的前端工程师的定义，到各科各门的具体技术说明都有。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Front-End Developer book" scheme="http://blog.raultang.com/categories/Front-End-Developer-book/"/>
+    
+      <category term="handbook" scheme="http://blog.raultang.com/categories/Front-End-Developer-book/handbook/"/>
+    
+    
+      <category term="Front-End" scheme="http://blog.raultang.com/tags/Front-End/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Nginx服务器相关配置</title>
+    <link href="http://blog.raultang.com/TECH/Nginx/nginx-configurations-guide/"/>
+    <id>http://blog.raultang.com/TECH/Nginx/nginx-configurations-guide/</id>
+    <published>2017-03-12T03:06:41.000Z</published>
+    <updated>2018-01-06T16:13:26.392Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近在折腾并学习阿里云平台，搭建部署了一个站点，考虑安全的问题，需要部署SSL证书。&lt;br&gt;经过了解，目前国内有多家公司都提供免费的SSL证书，可以安装到自己的服务器。由于自己搭建是基于Nginx的，&lt;br&gt;自己就顺便学习了一下Nginx的相关配置。&lt;/p&gt;&lt;h5 id=&quot;1-免费证书供应商&quot;&gt;&lt;a href=&quot;#1-免费证书供应商&quot; class=&quot;headerlink&quot; title=&quot;1. 免费证书供应商&quot;&gt;&lt;/a&gt;1. 免费证书供应商&lt;/h5&gt;&lt;p&gt;国内的免费SSL证书的服务商，我发现还是有很多家的，阿里云,百度云加速，360等等。大家可以根据自己的服务器的实际情况来选择。&lt;/p&gt;&lt;h5 id=&quot;2-申请-安装证书&quot;&gt;&lt;a href=&quot;#2-申请-安装证书&quot; class=&quot;headerlink&quot; title=&quot;2. 申请/安装证书&quot;&gt;&lt;/a&gt;2. 申请/安装证书&lt;/h5&gt;&lt;p&gt;由于服务器的架构是LNMT Stack（Linux-Nginx-MySQL-Tomcat）, 所以此次我们需要配置的是Nginx的相关配置.&lt;/p&gt;&lt;p&gt;首先，登录自己的&lt;a href=&quot;https://www.aliyun.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;阿里云&lt;/a&gt; - &lt;a href=&quot;https://www.aliyun.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.aliyun.com&lt;/a&gt; 账户，在安全（云盾）中找到 证书服务 –&amp;gt; 购买证书.&lt;/p&gt;&lt;p&gt;以下是可以购买的证书类型，选择免费型DV SSL即可，证书是Symantec颁发的，免费型证书只能保护一个域名或字域名，一次1年，可以无限购买。&lt;br&gt;只要你有足够多服务器和域名需要绑定。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="TECH" scheme="http://blog.raultang.com/categories/TECH/"/>
+    
+      <category term="Nginx" scheme="http://blog.raultang.com/categories/TECH/Nginx/"/>
+    
+    
+      <category term="Nginx" scheme="http://blog.raultang.com/tags/Nginx/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Introduction to Microservices - 微服务架构之旅</title>
+    <link href="http://blog.raultang.com/TECH/Microservices/Introduction_to_Microservices/"/>
+    <id>http://blog.raultang.com/TECH/Microservices/Introduction_to_Microservices/</id>
+    <published>2017-03-11T19:06:41.000Z</published>
+    <updated>2018-01-06T17:13:56.788Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;简介-amp-前言&quot;&gt;&lt;a href=&quot;#简介-amp-前言&quot; class=&quot;headerlink&quot; title=&quot;简介&amp;amp;前言&quot;&gt;&lt;/a&gt;简介&amp;amp;前言&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;原作者:&lt;/strong&gt; Chris Richardson，是世界著名的软件大师，经典技术著作《POJOS IN ACTION》一书的作者，也是 cloudfoundry.com 最初的创始人，他的研究领域包括 Spring、Scala、微服务架构设计、NoSQL 数据库、分布式数据管理、事件驱动的应用编程等。Chris Richardson 与 Martin Fowler、Sam Newman、Adrian Cockcroft 等并称为世界十大软件架构师。Chris 与家人居住在美国加州奥克兰市的海滨小镇，他定期为企业提供微服务设计培训和实战项目的架构咨询服务。&lt;/p&gt;&lt;h4 id=&quot;微服务架构系列有7篇&quot;&gt;&lt;a href=&quot;#微服务架构系列有7篇&quot; class=&quot;headerlink&quot; title=&quot;微服务架构系列有7篇:&quot;&gt;&lt;/a&gt;微服务架构系列有7篇:&lt;/h4&gt;&lt;h5 id=&quot;1-this-article&quot;&gt;&lt;a href=&quot;#1-this-article&quot; class=&quot;headerlink&quot; title=&quot;1.  (this article)&quot;&gt;&lt;/a&gt;1. &lt;a href=&quot;/TECH/Microservices/Introduction_to_Microservices/&quot; title=&quot;微服务架构简介&quot;&gt;微服务架构简介&lt;/a&gt; (this article)&lt;/h5&gt;&lt;h5 id=&quot;2-构建微服务-使用API-Gateway&quot;&gt;&lt;a href=&quot;#2-构建微服务-使用API-Gateway&quot; class=&quot;headerlink&quot; title=&quot;2. 构建微服务: 使用API Gateway&quot;&gt;&lt;/a&gt;2. 构建微服务: 使用API Gateway&lt;/h5&gt;&lt;h5 id=&quot;3-构建微服务-微服务构架内的进程间通信&quot;&gt;&lt;a href=&quot;#3-构建微服务-微服务构架内的进程间通信&quot; class=&quot;headerlink&quot; title=&quot;3. 构建微服务: 微服务构架内的进程间通信&quot;&gt;&lt;/a&gt;3. 构建微服务: 微服务构架内的进程间通信&lt;/h5&gt;&lt;h5 id=&quot;4-微服务构架的服务发现&quot;&gt;&lt;a href=&quot;#4-微服务构架的服务发现&quot; class=&quot;headerlink&quot; title=&quot;4. 微服务构架的服务发现&quot;&gt;&lt;/a&gt;4. 微服务构架的服务发现&lt;/h5&gt;&lt;h5 id=&quot;5-微服务事件驱动的数据管理&quot;&gt;&lt;a href=&quot;#5-微服务事件驱动的数据管理&quot; class=&quot;headerlink&quot; title=&quot;5. 微服务事件驱动的数据管理&quot;&gt;&lt;/a&gt;5. 微服务事件驱动的数据管理&lt;/h5&gt;&lt;h5 id=&quot;6-微服务的部署策略&quot;&gt;&lt;a href=&quot;#6-微服务的部署策略&quot; class=&quot;headerlink&quot; title=&quot;6. 微服务的部署策略&quot;&gt;&lt;/a&gt;6. 微服务的部署策略&lt;/h5&gt;&lt;h5 id=&quot;7-重构单应用到微服务&quot;&gt;&lt;a href=&quot;#7-重构单应用到微服务&quot; class=&quot;headerlink&quot; title=&quot;7. 重构单应用到微服务&quot;&gt;&lt;/a&gt;7. 重构单应用到微服务&lt;/h5&gt;&lt;ul&gt;&lt;li&gt;Microservices e-Book: &lt;a href=&quot;https://www.nginx.com/resources/library/designing-deploying-microservices/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Microservices: From Design to Deployment&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;h3 id=&quot;Microservices-现状&quot;&gt;&lt;a href=&quot;#Microservices-现状&quot; class=&quot;headerlink&quot; title=&quot;Microservices 现状:&quot;&gt;&lt;/a&gt;Microservices 现状:&lt;/h3&gt;&lt;p&gt;当下微服务引起广泛关注，成为文章、博客、社交媒体讨论和大会演讲的热点; 在 Gartner 的”Hype Cycle”中也正迅速排名靠前。与此同时,在软件社区也有一些人们认为微服务并非新事物。&lt;/p&gt;&lt;p&gt;反对者认为微服务只是 SOA （Service Oriented Architecture）的二度包装。然而，无论是追捧还是质疑，微服务架构模式拥有显著优势, 特别是涉及到敏捷开发和交付使复杂的企业应用程序时。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;本文是微服务架构系列的第一篇：主是介绍了微服务设计，构建以及部署。&lt;/strong&gt;&lt;br&gt;你将进一步了解和走近微服务构架，并且比较分析它与传统单体应用架构模式. 本系列将会讲解到微服务架构的各种构成要素。还将了解到微服务架构的优势和弊端，并且是否对你的项目有帮助，和如何使用它。&lt;/p&gt;&lt;ul&gt;&lt;li&gt;个人觉得既然这个技术架构，这么火爆，了解一下也不是坏事情，所以一起来看看吧。&lt;/li&gt;&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="TECH" scheme="http://blog.raultang.com/categories/TECH/"/>
+    
+      <category term="Microservices" scheme="http://blog.raultang.com/categories/TECH/Microservices/"/>
+    
+    
+      <category term="cloud" scheme="http://blog.raultang.com/tags/cloud/"/>
+    
+      <category term="微服务架构" scheme="http://blog.raultang.com/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84/"/>
+    
+      <category term="microservices" scheme="http://blog.raultang.com/tags/microservices/"/>
+    
+      <category term="monolithic application" scheme="http://blog.raultang.com/tags/monolithic-application/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Excel技巧进行数据比较</title>
+    <link href="http://blog.raultang.com/Tutorial/Excel-Compare/excel-spreadsheet-compare/"/>
+    <id>http://blog.raultang.com/Tutorial/Excel-Compare/excel-spreadsheet-compare/</id>
+    <published>2017-03-06T10:38:06.000Z</published>
+    <updated>2018-01-06T16:13:26.376Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;很多职业表亲都有过这样的经历：辛辛苦苦做完了表格发给上级去审核修改，上级修改完后就发回来，我们自己再做审核，最后发布。然而可能有些上级比较懒，改动了很多数据却没有做任何标记和说明，难道你要去一个一个的问你的上司吗？这不职业，而且也不大可能。在IT行业中，我们也会经常处理Excel表格，所以这些技巧也我们必备技能。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Tutorial" scheme="http://blog.raultang.com/categories/Tutorial/"/>
+    
+      <category term="Excel Compare" scheme="http://blog.raultang.com/categories/Tutorial/Excel-Compare/"/>
+    
+    
+      <category term="Excel" scheme="http://blog.raultang.com/tags/Excel/"/>
+    
+      <category term="Spreadsheet Camprare" scheme="http://blog.raultang.com/tags/Spreadsheet-Camprare/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>个人职业发展</title>
+    <link href="http://blog.raultang.com/Career-Development/programer-career-plan/"/>
+    <id>http://blog.raultang.com/Career-Development/programer-career-plan/</id>
+    <published>2017-02-15T03:06:41.000Z</published>
+    <updated>2018-01-06T16:13:26.394Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;img src=&quot;/Career-Development/programer-career-plan/Career-Development-Journey-Map-V2.jpg&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Career Development" scheme="http://blog.raultang.com/categories/Career-Development/"/>
+    
+    
+      <category term="Career Development" scheme="http://blog.raultang.com/tags/Career-Development/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何正确回复与应对客户或顾客的投诉</title>
+    <link href="http://blog.raultang.com/Entrepreneur/how-to-write-a-good-response-to-a-clientcustomer-complaint/"/>
+    <id>http://blog.raultang.com/Entrepreneur/how-to-write-a-good-response-to-a-clientcustomer-complaint/</id>
+    <published>2017-01-09T07:21:32.000Z</published>
+    <updated>2018-01-06T16:13:26.388Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;How-to-write-a-good-response-to-a-client-customer-complaint&quot;&gt;&lt;a href=&quot;#How-to-write-a-good-response-to-a-client-customer-complaint&quot; class=&quot;headerlink&quot; title=&quot;How to write a good response to a client/customer complaint&quot;&gt;&lt;/a&gt;How to write a good response to a client/customer complaint&lt;/h4&gt;&lt;p&gt;今天在&lt;a href=&quot;https://www.sitepoint.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Sitepoint&lt;/a&gt; - &lt;a href=&quot;https://www.sitepoint.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://www.sitepoint.com&lt;/a&gt; 看到了这一篇文章，觉得还不错，所以尝试翻译成了中文版，供以后参考。&lt;/p&gt;&lt;p&gt;在日常工作我们常常会遇到各种各样的客户投诉。&lt;/p&gt;&lt;p&gt;也许你的产品或者服务都是最一流的！也许你的客户也是最好的！&lt;/p&gt;&lt;p&gt;但是最终还是避免不了，因为我们始终都会遇到客户投诉。&lt;/p&gt;&lt;p&gt;今天，我们就来讨论一下为什么顾客或客户的投诉对于我们的业务来说是一笔巨大的资产，并且通过一封投诉回复邮件示例来说明.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Entrepreneur" scheme="http://blog.raultang.com/categories/Entrepreneur/"/>
+    
+    
+      <category term="customer service" scheme="http://blog.raultang.com/tags/customer-service/"/>
+    
+      <category term="how to get customers" scheme="http://blog.raultang.com/tags/how-to-get-customers/"/>
+    
+      <category term="Marketing" scheme="http://blog.raultang.com/tags/Marketing/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Google Resizer 响应式网站在线测试工具</title>
+    <link href="http://blog.raultang.com/Tools/Google-Tools/google-resizer/"/>
+    <id>http://blog.raultang.com/Tools/Google-Tools/google-resizer/</id>
+    <published>2017-01-09T03:06:41.000Z</published>
+    <updated>2018-01-06T16:13:26.386Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;谷歌推出了一款免费的响应式网站测试工具：Google Resizer&lt;/p&gt;&lt;p&gt;我们可直接在Google Resizer平台上测试站点在不同尺寸设备中的显示、使用等情况。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Tools" scheme="http://blog.raultang.com/categories/Tools/"/>
+    
+      <category term="Google Tools" scheme="http://blog.raultang.com/categories/Tools/Google-Tools/"/>
+    
+    
+      <category term="Test tools" scheme="http://blog.raultang.com/tags/Test-tools/"/>
+    
+      <category term="Google Resizer" scheme="http://blog.raultang.com/tags/Google-Resizer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Vocalizer.js喊出自己的名字!</title>
+    <link href="http://blog.raultang.com/Tutorial/Vocalizer-js/Name_Vocalizer/"/>
+    <id>http://blog.raultang.com/Tutorial/Vocalizer-js/Name_Vocalizer/</id>
+    <published>2017-01-03T10:14:23.000Z</published>
+    <updated>2018-01-06T16:13:26.367Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;Pronounce-Names-Right&quot;&gt;&lt;a href=&quot;#Pronounce-Names-Right&quot; class=&quot;headerlink&quot; title=&quot;Pronounce Names Right!&quot;&gt;&lt;/a&gt;Pronounce Names
+        
+      
+    
+    </summary>
+    
+      <category term="Tutorial" scheme="http://blog.raultang.com/categories/Tutorial/"/>
+    
+      <category term="Vocalizer.js" scheme="http://blog.raultang.com/categories/Tutorial/Vocalizer-js/"/>
+    
+    
+      <category term="Vocalizer.js" scheme="http://blog.raultang.com/tags/Vocalizer-js/"/>
+    
+      <category term="Inspiration" scheme="http://blog.raultang.com/tags/Inspiration/"/>
+    
+      <category term="User Experience" scheme="http://blog.raultang.com/tags/User-Experience/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo + Github Pages 个人博客构建指南</title>
+    <link href="http://blog.raultang.com/Tutorial/Hexo-Tutorial/setup-my-hexo-blog/"/>
+    <id>http://blog.raultang.com/Tutorial/Hexo-Tutorial/setup-my-hexo-blog/</id>
+    <published>2016-12-05T01:40:31.000Z</published>
+    <updated>2018-01-07T14:08:06.960Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;简介-amp-前言&quot;&gt;&lt;a href=&quot;#简介-amp-前言&quot; class=&quot;headerlink&quot; title=&quot;简介&amp;amp;前言&quot;&gt;&lt;/a&gt;简介&amp;amp;前言&lt;/h4&gt;&lt;p&gt;早些时候，已经了解了一些类似的博客框架，但是一直也没有着手实践一回，最近使用Hexo构建了一个自己的博客，在此记录下Hexo + Github Pages博客构建过程。&lt;/p&gt;&lt;h4 id=&quot;什么是-Hexo？&quot;&gt;&lt;a href=&quot;#什么是-Hexo？&quot; class=&quot;headerlink&quot; title=&quot;什么是 Hexo？&quot;&gt;&lt;/a&gt;什么是 Hexo？&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt; 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Tutorial" scheme="http://blog.raultang.com/categories/Tutorial/"/>
+    
+      <category term="Hexo Tutorial" scheme="http://blog.raultang.com/categories/Tutorial/Hexo-Tutorial/"/>
+    
+    
+      <category term="Hexo Tutorial" scheme="http://blog.raultang.com/tags/Hexo-Tutorial/"/>
+    
+  </entry>
+  
+</feed>
